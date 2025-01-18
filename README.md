@@ -29,11 +29,8 @@ The **OlympicStats** app is designed to help users explore comprehensive Olympic
 
 ## Requirements 📋
 
-To run this application locally, you need to install the following dependencies:
+- Install dependencies using `pip install -r requirements.txt`
 
-    ```
-    pip install -r requirements.txt
-    ```
 ## Setup and Installation 🚀
 
 1.  **Clone the repository:**
