@@ -25,7 +25,7 @@ The **OlympicStats** app is designed to help users explore comprehensive Olympic
 - 🥇 **Displays medal counts** and performance metrics by country and year.
 - 🌍 **Ability to explore performance by specific sports** or Olympic events.
 - 🖥️ **Clean and user-friendly interface** powered by Streamlit.
-- 🔄 **Option to compare data across multiple Olympic Games and years.
+- 🔄 **Option to compare** data across multiple Olympic Games and years.
 
 ## Requirements 📋
 
