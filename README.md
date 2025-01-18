@@ -31,7 +31,7 @@ The **OlympicStats** app is designed to help users explore comprehensive Olympic
 
 To run this application locally, you need to install the following dependencies:
 
-    ```bash
+```bash
     pip install -r requirements.txt
     ```
 ## Setup and Installation 🚀
