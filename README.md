@@ -31,43 +31,41 @@ The **OlympicStats** app is designed to help users explore comprehensive Olympic
 
 To run this application locally, you need to install the following dependencies:
 
-```bash
-pip install -r requirements.txt
-```
+    ```bash
+    pip install -r requirements.txt
+    ```
 ## Setup and Installation 🚀
 
 1.  **Clone the repository:**
 
-```
-git clone https://github.com/bushraqurban/OlympicStats.git
-cd OlympicStats
-```
+    ```bash
+    git clone https://github.com/bushraqurban/OlympicStats.git
+    cd OlympicStats
+    ```
 2.  **Create a virtual environment and activate it (optional but recommended):**
+         
+    ```bash
+    # On Mac/Linux:
+    python3 -m venv venv
+    source venv/bin/activate
+    ```
     
-     
-```
-# On Mac/Linux:
-python3 -m venv venv
-source venv/bin/activate
-```
-
-    
-```
-# On Windows
-python -m venv venv 
-.\venv\Scripts\activate
-```
+    ```bash
+    # On Windows
+    python -m venv venv 
+    .\venv\Scripts\activate
+    ```
 
 3.  **Install the required dependencies:**
 
-```
-pip install -r requirements.txt` 
-```
+    ```bash
+    pip install -r requirements.txt` 
+    ```
 4.  **Run the application:**
 
-```
-streamlit run app.py
-```
+    ```bash
+    streamlit run app.py
+    ```
 
 This will open the app in your default browser.
 
