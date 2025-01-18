@@ -44,12 +44,12 @@ cd OlympicStats
 ```
 2.  **Create a virtual environment and activate it (optional but recommended):**
     
- On Mac/Linux:
+     On Mac/Linux:
 ```
 python3 -m venv venv
 source venv/bin/activate` 
 ```
-On Windows:
+    On Windows:
 ```
 python -m venv venv
 .\venv\Scripts\activate
