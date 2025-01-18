@@ -1,0 +1,17 @@
+# Virtual environment
+venv/
+
+# Byte-compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE files
+.idea/
+
+# System files
+.DS_Store
+
+# Datasets
+*.csv
