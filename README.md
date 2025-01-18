@@ -1,5 +1,5 @@
 
-# OlympicStats 🏅
+# 🏅 OlympicStats 
 
 **An interactive data visualization tool that provides detailed statistics and insights about the Olympic Games, including medal counts, country rankings, athlete achievements, and event histories. This project is built using Streamlit for a user-friendly web interface.**
 
