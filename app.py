@@ -22,6 +22,7 @@ noc_regions_url = f'https://drive.google.com/uc?id={noc_regions_file_id}'
 
 # Function to download the dataset if not already present
 def download_dataset(file_id, local_filename):
+    os.makedirs(os.path.dirname(local_filename), exist_ok=True)
     if not os.path.exists(local_filename):
         gdown.download(file_id, local_filename, quiet=False)
 
