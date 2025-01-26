@@ -49,8 +49,9 @@ st.markdown("""
 # Sidebar for user options
 
 # Customizing Sidebar Title with Markdown and Emoji
+st.sidebar.image('images/logo.png', use_container_width=True)
+
 st.sidebar.markdown("""
-# 🏅 **OlympicStats** 
 _Your ultimate source for Olympic data analysis_  
 """, unsafe_allow_html=True)
 
