@@ -26,13 +26,13 @@ def download_dataset(file_id, local_filename):
         gdown.download(file_id, local_filename, quiet=False)
 
 # Check if the datasets exist and download them if necessary
-download_dataset(athletes_url, 'athlete_events.csv')
-download_dataset(noc_regions_url, 'noc_regions.csv')
+download_dataset(athletes_url, 'data/athlete_events.csv')
+download_dataset(noc_regions_url, 'data/noc_regions.csv')
 
 # Load datasets after ensuring they're downloaded
 try:
-    df = pd.read_csv('athlete_events.csv')
-    region_df = pd.read_csv('noc_regions.csv')
+    df = pd.read_csv('data/athlete_events.csv')
+    region_df = pd.read_csv('data/noc_regions.csv')
 except FileNotFoundError as e:
     st.error(f"Error loading data: {e}")
     st.stop()
