@@ -1,9 +1,28 @@
+<h1 align="center">
+        <img alt="OlympicStats Logo" width="200px" src="images/logo.png">
+</h1>
 
-# 🏅 OlympicStats 
+<div align="center">
 
-**An interactive data visualization tool that provides detailed statistics and insights about the Olympic Games, including medal counts, country rankings, athlete achievements, and event histories. This project is built using Streamlit for a user-friendly web interface.**
+[![Live Website Status](https://img.shields.io/badge/Live_App-Online-brightgreen)](https://olympicstat.streamlit.app/)
 
-![OlympicStats](olympicstats-banner.png)  
+</div>
+
+An interactive data visualization tool that provides detailed statistics and insights about the Olympic Games, including medal counts, country rankings, athlete achievements, and event histories. This project is built using Streamlit for a user-friendly web interface.**
+
+
+![Page1 Screenshot](images/page1.png)
+*Medal Tally: Displays the total medal tally for a selected country and year, allowing users to explore medal counts for specific Olympic editions and countries.*
+
+![Page2 Screenshot](images/page2.png)
+*Overall Analysis: Provides high-level statistics like the number of Olympic editions, sports, events, athletes, and nations, along with trends in participation over the years.*
+
+![Page3 Screenshot](images/page3.png)
+*Country-wise Analysis: Allows users to explore a specific country’s performance in the Olympics over the years, including medal tallies, sports performance, and top athletes.*
+
+![Page4 Screenshot](images/page4.png)
+*Athlete-wise Analysis: Offers detailed insights into athletes, including age distribution by medal type, height vs. weight scatterplots, and gender participation trends.*
+
 
 ## Objective 🎯
 
@@ -27,9 +46,6 @@ The **OlympicStats** app is designed to help users explore comprehensive Olympic
 - 🖥️ **Clean and user-friendly interface** powered by Streamlit.
 - 🔄 **Option to compare** data across multiple Olympic Games and years.
 
-## Requirements 📋
-
-- Install dependencies using `pip install -r requirements.txt`
 
 ## Setup and Installation 🚀
 
@@ -72,13 +88,6 @@ This will open the app in your default browser.
 2.  Use the provided filters to select a year, country, or sport.
 3.  Explore the different visualizations and statistics displayed on the app.
 4.  You can click through the charts to dive deeper into specific insights or countries.
-
-
-## Future Improvements 🌱
-
--   **More detailed data integration**: Expand the dataset to include more granular information about athletes, records, and Olympic events.
--   **User accounts and personalized data tracking**: Allow users to save and track their preferred countries, sports, or athletes for quicker access.
--   **Enhanced interactivity**: Add more filtering options for users to drill deeper into specific events, countries, or athletes.
 
 
 ## License 📜
